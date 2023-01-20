@@ -11,6 +11,7 @@
 		65303A51297AAED9003F5CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65303A50297AAED9003F5CED /* ContentView.swift */; };
 		65303A53297AAEDA003F5CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65303A52297AAEDA003F5CED /* Assets.xcassets */; };
 		65303A57297AAEDA003F5CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65303A56297AAEDA003F5CED /* Preview Assets.xcassets */; };
+		65303A5E297AAEE2003F5CED /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65303A5D297AAEE2003F5CED /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		65303A52297AAEDA003F5CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65303A54297AAEDA003F5CED /* Themer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Themer.entitlements; sourceTree = "<group>"; };
 		65303A56297AAEDA003F5CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65303A5D297AAEE2003F5CED /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		65303A4D297AAED9003F5CED /* Themer */ = {
 			isa = PBXGroup;
 			children = (
+				65303A5D297AAEE2003F5CED /* Theme.swift */,
 				65303A4E297AAED9003F5CED /* ThemerApp.swift */,
 				65303A50297AAED9003F5CED /* ContentView.swift */,
 				65303A52297AAEDA003F5CED /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65303A5E297AAEE2003F5CED /* Theme.swift in Sources */,
 				65303A51297AAED9003F5CED /* ContentView.swift in Sources */,
 				65303A4F297AAED9003F5CED /* ThemerApp.swift in Sources */,
 			);

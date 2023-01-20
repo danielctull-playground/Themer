@@ -1,20 +1,18 @@
-//
-//  ContentView.swift
-//  Themer
-//
-//  Created by Daniel Tull on 20/01/2023.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+
+    @Environment(\.theme) private var theme
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
+        .background(theme.background)
+        .foregroundColor(theme.text)
         .padding()
     }
 }

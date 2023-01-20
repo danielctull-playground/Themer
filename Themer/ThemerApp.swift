@@ -1,9 +1,3 @@
-//
-//  ThemerApp.swift
-//  Themer
-//
-//  Created by Daniel Tull on 20/01/2023.
-//
 
 import SwiftUI
 
@@ -12,6 +6,13 @@ struct ThemerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .theme(Theme(
+                    light: Theme.Mode(
+                        text: .orange,
+                        background: .white),
+                    dark: Theme.Mode(
+                        text: .white,
+                        background: .purple)))
         }
     }
 }
